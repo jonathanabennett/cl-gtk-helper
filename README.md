@@ -1,25 +1,12 @@
 # cl-gtk4-helper
 
-This library adds helper functions and wrappers for use with cl-gtk4
+This library adds helper functions and wrappers for use with cl-gtk4. It is intended to make some of the boilerplate code around StringListStores easier to manage.
 
 # Usage
 
-Run from sources:
+Use Quicklisp to load the library (coming soon!) with `(ql:quickload :cl-gtk4-helper)`.
 
-    make run
-    # aka sbcl --load run.lisp
-
-choose your lisp:
-
-    LISP=ccl make run
-
-or build and run the binary:
-
-```
-$ make build
-$ ./cl-gtk4-helper [name]
-Hello [name] from cl-gtk4-helper
-```
+To create a list store, run
 
 ## Roswell integration
 

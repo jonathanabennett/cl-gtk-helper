@@ -3,7 +3,7 @@
 (defsystem "cl-gtk4-helper"
   :author "Jonathan A. Bennett <doulos05@gmail.com>"
   :version "0.0.1"
-  :license "GPL3"
+  :license "BSD"
   :description "This library adds helper functions and wrappers for use with cl-gtk4"
   :homepage ""
   :bug-tracker ""
